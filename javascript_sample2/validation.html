@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DIC cafe</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/contact_validation.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="section_inner">
+      <div class="section_title">
+        <h1>CONTACT</h1>
+        <p>お問い合わせ</p>
+      </div>
+      <form action="#" method="POST" id="form">
+        <table class="contact">
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="name">お名前</label></td>
+            <td class="contact_input"><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="email">Eメール</label></td>
+            <td class="contact_input"><input type="email" name="email" id="email"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="email_confirm">Eメール(確認)</label></td>
+            <td class="contact_input"><input type="email" name="email_confirm" id="email_confirm"></td>
+          </tr>
+          <tr class="contact_content">
+            <td class="contact_sign"><label for="content">内容</label></td>
+            <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+          </tr>
+        </table>
+        <div class="contact_btn_area">
+          <button type="reset" class="contact_btn reset_btn">リセット</button>
+          <button type="submit" class="contact_btn submit_btn">送信する</button>
+        </div>
+      </form>
+    </section>
+    <script type="text/javascript" src="javascripts/validation.js"></script>
+  </body>
+</html>
